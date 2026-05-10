@@ -41,12 +41,12 @@ $days-indent: (
     text-align: center;
     font-size: 30px;
     font-family: Arial, sans-serif;
+    transition-duration: 500ms;
 
     &:hover {
       cursor: pointer;
       background-color: #ffbfcb;
       transform: translateY(-20px);
-      transition-duration: 500ms;
     }
   }
 }
